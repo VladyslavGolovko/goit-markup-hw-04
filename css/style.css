@@ -144,8 +144,23 @@ img {
   margin-right: 50px;
 }
 
+.contacts-email {
+  margin-right: 10px;
+  fill: currentColor;
+  width: 16px;
+  height: 12px;
+}
+
+.contacts-phone {
+  margin-right: 10px;
+  fill: currentColor;
+  width: 10px;
+  height: 16px;
+}
+
 .contacts-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -237,6 +252,23 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.advantages-icon {
+  fill: currentColor;
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-social-link {
+  cursor: pointer;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--tertiary-text-color);
 }
 
 /* works-section */
@@ -387,11 +419,22 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
 /* footer-section */
 
 .footer {
   padding: 60px 0;
   background-color: var(--hero-footer-bg-color);
+}
+
+.footer-list {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-link {
@@ -409,6 +452,7 @@ img {
 /* contacts-section */
 
 .footer-contacts {
+  margin-right: 70px;
   margin-top: 20px;
   font-style: normal;
 }
@@ -442,6 +486,52 @@ img {
 .footer-contacts-link-address:focus {
   color: var(--accent-color);
 }
+
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  color: var(--tertiary-text-color);
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--main-text-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-socials-text {
+  color: var(--tertiary-text-color);
+  margin-bottom: 20px;
+  color: var(--tertiary-text-color);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+/* footer social-media */
 
 /* portfolio.html */
 

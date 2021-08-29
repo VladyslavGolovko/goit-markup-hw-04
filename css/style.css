@@ -58,6 +58,16 @@ img {
   padding-bottom: 94px;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--secondary-text-color);
+}
+
 /* CONTAINER */
 
 .container {
@@ -238,22 +248,18 @@ img {
   height: 70px;
 }
 
-.advantages-social-link {
-  cursor: pointer;
+.advantages-card {
   width: 270px;
   height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--our-team-bg-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantages {
   display: flex;
-}
-
-.advantages-social-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .advantages-item:not(:last-child) {
@@ -283,16 +289,6 @@ img {
   height: 70px;
 }
 
-.advantages-social-link {
-  cursor: pointer;
-  width: 270px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--our-team-bg-color);
-}
-
 /* works-section */
 
 .works {
@@ -302,15 +298,6 @@ img {
 .works-list {
   display: flex;
   margin-top: 50px;
-}
-
-.works-main-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
 
 .works-item:not(:last-child) {
@@ -369,15 +356,6 @@ img {
   margin-right: 10px;
 }
 
-.our-team-main-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
-
 .our-team-list {
   display: flex;
   margin-top: 50px;
@@ -405,15 +383,6 @@ img {
 }
 
 /* clients-section */
-
-.clients-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
 
 .clients-list {
   display: flex;

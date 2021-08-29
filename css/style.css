@@ -229,8 +229,31 @@ img {
   margin: -1px;
 }
 
+.advantages-social-list {
+  display: flex;
+}
+
+.advantages-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-social-link {
+  cursor: pointer;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--our-team-bg-color);
+}
+
 .advantages {
   display: flex;
+}
+
+.advantages-social-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .advantages-item:not(:last-child) {
@@ -238,6 +261,7 @@ img {
 }
 
 .advantages-title {
+  margin-top: 30px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -255,7 +279,6 @@ img {
 }
 
 .advantages-icon {
-  fill: currentColor;
   width: 70px;
   height: 70px;
 }
@@ -267,8 +290,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  background-color: var(--tertiary-text-color);
+  background-color: var(--our-team-bg-color);
 }
 
 /* works-section */

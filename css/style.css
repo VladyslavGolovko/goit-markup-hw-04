@@ -6,6 +6,7 @@
   --tertiary-text-color: #ffffff;
   --border-color: #eeeeee;
   --social-link-color: #afb1b8;
+  --footer-social-link-color: #ffffff1a;
   --header-border-color: #ececec;
   --button-accent-color: #188ce8;
   --accent-color: #2196f3;
@@ -423,6 +424,10 @@ img {
   background-color: var(--hero-footer-bg-color);
 }
 
+.footer-right {
+  margin-left: 70px;
+}
+
 .footer-list {
   display: flex;
   align-items: baseline;
@@ -442,14 +447,13 @@ img {
 
 /* contacts-section */
 
-.footer-contacts {
-  margin-right: 70px;
-  margin-top: 20px;
-  font-style: normal;
-}
-
 .footer-contacts-list {
   display: block;
+}
+
+.footer-contacts {
+  margin-top: 20px;
+  font-style: normal;
 }
 
 .footer-contacts-item:not(:first-child) {
@@ -486,7 +490,6 @@ img {
 
 .footer-social-list {
   display: flex;
-  justify-content: center;
 }
 
 .footer-social-item:not(:last-child) {
@@ -502,7 +505,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: var(--main-text-color);
+  background-color: var(--footer-social-link-color);
 }
 
 .footer-social-link:hover,

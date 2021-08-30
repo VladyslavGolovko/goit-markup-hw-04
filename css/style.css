@@ -303,6 +303,7 @@ img {
 }
 
 .our-team-main {
+  border-bottom: 1px solid var(--border-color);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--tertiary-text-color);
   padding-top: 30px;
@@ -558,6 +559,12 @@ img {
   margin-left: -30px;
 }
 
+.projects-item:hover,
+.projects-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .projects-item {
   margin-top: 30px;
   margin-left: 30px;
@@ -569,6 +576,7 @@ img {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  background-color: var(--tertiary-text-color);
 }
 
 .projects-title {
